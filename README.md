@@ -9,8 +9,7 @@ Uma Landing Page de alta performance construída com foco em design minimalista 
 ## 📸 Preview
 
 <div align="center">
-  <img src="../../MacBook Air - 2.svg
-  " alt="Banner do Projeto" width="100%">
+  <img src="./src/assets/images/fotoProj02.svg" alt="Banner do Projeto" width="100%">
 </div>
 
 ---
