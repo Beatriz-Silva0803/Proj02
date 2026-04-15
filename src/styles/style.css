@@ -1,0 +1,106 @@
+@import url(./global.css);
+
+body{
+    background-color: var(--color-secondary-white);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 0.6px solid var(--color-neutral-gray);
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header-item-active{
+    color: var(--color-primary-blue);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    text-decoration: none;
+}
+
+.nav-header-item{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    text-decoration: none;
+}
+
+.btn-header{
+    background-color: var(--color-primary-blue);
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+
+.btn-header a{
+    color: var(--color-secondary-white);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+}
+
+main{
+    background-color: var(--color-primary-blue-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 85px;
+    gap: 50px;
+}
+
+.content-main-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-main-principal h1{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-size: var(--font-h1);
+    text-align: start;
+    width: 515px;
+}
+
+.content-main-principal h1 span{
+    color: var(--color-primary-blue);
+}
+
+.content-main-principal p{
+    color: var(--color-neutral-gray);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    width: 520px;
+}
+
+.container-btn-main{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.btn-header-primary{
+    background-color: var(--color-primary-blue);
+    color: var(--color-secondary-white);
+    border-radius: 10px;
+    padding: 8px 55px;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+}
+
+.btn-header-secondary{
+    border: 1px solid var(--color-primary-blue);
+    border-radius: 10px;
+    padding: 8px 55px;
+    color: var(--color-primary-blue);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    text-decoration: none;
+}
