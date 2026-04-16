@@ -104,3 +104,35 @@ main{
     font-size: var(--font-h4);
     text-decoration: none;
 }
+
+.section-service{
+    display: flex;
+    justify-content: center;
+    padding: 30px 54px;
+    border-bottom: 0.7px solid var(--color-neutral-gray);
+}
+
+.section-service-container{
+    display: flex;
+    gap: 25px;
+}
+
+.service-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.service-text h4{
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-neutral-black);
+}
+
+.service-text p{
+    color: var(--color-neutral-gray);
+    font-family: var(--font-body);
+    font-size: 14px;
+}
