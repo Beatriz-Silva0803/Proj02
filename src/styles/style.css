@@ -136,3 +136,88 @@ main{
     font-family: var(--font-body);
     font-size: 14px;
 }
+
+.section-experiences{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 80px;
+    gap: 84px;
+}
+
+.experience-descrition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.experience-descrition h2{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h2);
+}
+
+.experience-descrition p{
+    color: var(--color-neutral-gray);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    text-align: center;
+    width: 665px;
+}
+
+.experience-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.experience-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+}
+
+.experience-item h4{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+}
+
+.experience-item p{
+    color: var(--color-neutral-gray);
+    font-family: var(--font-body);
+    font-size: 14px;
+}
+
+.experience-descrition-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-descrition-item h3{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h3);
+    width: 516px;
+}
+
+.experience-descrition-item p{
+    color: var(--color-neutral-gray);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    width: 445px;
+}
+
+.experience-descrition-item h3 span{
+    color: var(--color-primary-blue);
+}
