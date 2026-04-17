@@ -363,3 +363,63 @@ main{
     background-color: #1089c0;
     color: white;
 }
+
+.section-company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 147px;
+}
+
+.section-company h3{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h3);
+}
+
+.section-company-information{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.section-registry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 132px 279px;
+    gap: 80px;
+}
+
+.section-registry h2{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h2);
+    width: 478px;
+    text-align: center;
+}
+
+.form-registry-item{
+    background-color: var(--color-primary-blue-10);
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.form-registry-item input{
+    background-color: var(--color-secondary-white);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    padding: 20px 365px 20px 36px ;
+    border-radius: 10px;
+}
+
+.form-registry-item button{
+    color: var(--color-secondary-white);
+    background-color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    padding: 20px 44px;
+    border-radius: 10px;
+}
