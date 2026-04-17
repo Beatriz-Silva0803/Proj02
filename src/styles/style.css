@@ -221,3 +221,145 @@ main{
 .experience-descrition-item h3 span{
     color: var(--color-primary-blue);
 }
+
+.section-card-review{
+    display: flex;
+    padding: 140px 37px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-review-primary{
+    display: flex;
+    flex-direction: column;
+    padding: 59px 57px;
+    width: 572px;
+    gap: 35px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-review-primary h3{
+    color: var(--color-neutral-black);
+    font-family: var(--font-body);
+    font-size: var(--font-h3);
+    width: 365px;
+    text-align: center;
+}
+
+.card-review-primary p{
+    color: var(--color-neutral-gray);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    width: 458px;
+}
+
+.btn-card-review-primary{
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-blue);
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+}
+
+.card-review-secundary{
+    background-color: var(--color-primary-blue);
+    display: flex;
+    flex-direction: column;
+    padding: 59px 57px;
+    width: 572px;
+    gap: 35px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.card-review-secundary h3{
+    color: var(--color-secondary-white);
+    font-family: var(--font-body);
+    font-size: var(--font-h3);
+    width: 365px;
+    text-align: center;
+}
+
+.card-review-secundary p{
+    color: var(--color-secondary-white);
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+    font-weight: 300;
+    width: 476px;
+}
+
+.btn-card-review-secundary{
+    color: var(--color-primary-blue);
+    background-color: var(--color-secondary-white);
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-h4);
+}
+
+.btn-card-review-primary {
+    transition: all 0.3s ease;
+    display: inline-block; 
+}
+
+.btn-card-review-primary:hover {
+    background-color: #0d6d99;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(16, 137, 192, 0.4);
+}
+
+.btn-card-review-secundary {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-card-review-secundary:hover {
+    background-color: #f8f8f8; 
+    color: #0d6d99; 
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Configuração base para ambos os cards */
+.card-review-primary, 
+.card-review-secundary {
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 30px;
+    /* Começamos com uma borda transparente para não "tremer" no hover */
+    border: 2px solid var(--color-primary-blue); 
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Hover do Card Azul (Primary) */
+.card-review-primary:hover {
+    transform: translateY(-10px);
+    border-color: #ffffff; /* Linha branca se o fundo for azul */
+    box-shadow: 0 20px 40px rgba(16, 137, 192, 0.3);
+}
+
+/* Hover do Card Branco (Secondary) */
+.card-review-secundary:hover {
+    transform: translateY(-10px);
+    border-color: #1089c0; /* A linha fica azul no hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Faz o botão reagir assim que o mouse toca em qualquer lugar do card */
+.card-review-primary:hover .btn-card-review-primary {
+    background-color: #0d6d99;
+}
+
+.card-review-secundary:hover .btn-card-review-secundary {
+    background-color: #1089c0;
+    color: white;
+}
